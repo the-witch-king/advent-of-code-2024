@@ -1,6 +1,6 @@
 import csv
 
-reports = list(csv.reader(open("../input.txt"), delimiter=" "))
+reports = list(csv.reader(open("./input.txt"), delimiter=" "))
 
 left_reports = [int(r[0]) for r in reports]
 right_reports = [int(r[1]) for r in reports]
